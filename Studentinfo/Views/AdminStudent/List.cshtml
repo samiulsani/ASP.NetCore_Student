@@ -1,0 +1,41 @@
+﻿@model List<Studentinfo.Models.Domain.Student>
+
+@{
+}
+<div class="bg-secondary bg-opacity-10 py-2">
+	<div class="container">
+		<h1>Show All Students</h1>
+	</div>
+</div>
+
+<div class="container py-5">
+    @if(Model!=null && Model.Any()){
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>Session</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var student in Model)
+                {
+                    <tr>
+                        <td>@student.Id</td>
+                        <td>@student.Name</td>
+                        <td>@student.Department</td>
+                        <td>@student.Session</td>
+                        <td><a asp-controller="AdminStudent" asp-action="Edit" asp-route-Id="@student.Id">Edit</a></td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+	}
+    else{
+        <p>No Data Found.</p>
+    }
+</div>

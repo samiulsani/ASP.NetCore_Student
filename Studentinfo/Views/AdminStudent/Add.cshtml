@@ -1,0 +1,26 @@
+﻿@model Studentinfo.Models.ViewModel.AddStudentRequest
+@{
+}
+<div class="bg-secondary bg-opacity-10 py-2">
+	<div class="container">
+		<h1>Add new student</h1>
+	</div>
+
+    <div class="container py-5">
+    <form method="post">
+        <div class="form-group mb-3">
+            <label for="Name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" asp-for="Name" />
+        </div>
+        <div class="form-group mb-3">
+            <label for="Department">Department</label>
+                <input type="text" class="form-control" id="department" placeholder="Department" asp-for="Department" />
+        </div>
+            <div class="form-group mb-3">
+                <label for="Session">Session</label>
+                <input type="text" class="form-control" id="session" placeholder="Session" asp-for="Session" />
+            </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    </div>
+</div>

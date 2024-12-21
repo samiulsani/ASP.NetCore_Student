@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ASP.NET\\Student\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\controllers\\adminstudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\controllers\\adminstudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\views\\adminstudent\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\views\\adminstudent\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\views\\adminstudent\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\views\\adminstudent\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\models\\viewmodel\\editstudentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\models\\viewmodel\\editstudentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\views\\adminstudent\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\views\\adminstudent\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditStudentRequest.cs",
+              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Models\\ViewModel\\EditStudentRequest.cs",
+              "RelativeDocumentMoniker": "Studentinfo\\Models\\ViewModel\\EditStudentRequest.cs",
+              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Models\\ViewModel\\EditStudentRequest.cs",
+              "RelativeToolTip": "Studentinfo\\Models\\ViewModel\\EditStudentRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T19:34:02.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\AdminStudent\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Studentinfo\\Views\\AdminStudent\\Edit.cshtml",
+              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\AdminStudent\\Edit.cshtml",
+              "RelativeToolTip": "Studentinfo\\Views\\AdminStudent\\Edit.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-19T19:25:14.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Studentinfo\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Studentinfo\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAADwvx4AAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-19T18:35:16.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\AdminStudent\\List.cshtml",
+              "RelativeDocumentMoniker": "Studentinfo\\Views\\AdminStudent\\List.cshtml",
+              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\AdminStudent\\List.cshtml",
+              "RelativeToolTip": "Studentinfo\\Views\\AdminStudent\\List.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-19T18:17:46.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\AdminStudent\\Add.cshtml",
+              "RelativeDocumentMoniker": "Studentinfo\\Views\\AdminStudent\\Add.cshtml",
+              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\AdminStudent\\Add.cshtml",
+              "RelativeToolTip": "Studentinfo\\Views\\AdminStudent\\Add.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-19T15:47:21.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminStudentController.cs",
+              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Controllers\\AdminStudentController.cs",
+              "RelativeDocumentMoniker": "Studentinfo\\Controllers\\AdminStudentController.cs",
+              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Controllers\\AdminStudentController.cs",
+              "RelativeToolTip": "Studentinfo\\Controllers\\AdminStudentController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwFoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T15:47:02.845Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+﻿@model Studentinfo.Models.ViewModel.EditStudentRequest
+@{
+}
+<div class="bg-secondary bg-opacity-10 py-2">
+    <div class="container">
+        <h1>Edit student info</h1>
+    </div>
+
+    <div class="container py-5">
+        <form method="post">
+            <div class="form-group mb-3">
+                <label for="Id">Id</label>
+                <input type="text" class="form-control" id="id" asp-for="Id" readonly/>
+            </div>
+            <div class="form-group mb-3">
+                <label for="Name">Name</label>
+                <input type="text" class="form-control" id="name" asp-for="Name" />
+            </div>
+            <div class="form-group mb-3">
+                <label for="Department">Department</label>
+                <input type="text" class="form-control" id="department" asp-for="Department" />
+            </div>
+            <div class="form-group mb-3">
+                <label for="Session">Session</label>
+                <input type="text" class="form-control" id="session" asp-for="Session" />
+            </div>
+            <button type="submit" class="btn btn-primary">Update</button>
+            <button type="submit" class="btn btn-outline-success" asp-controller="AdminStudent" asp-action="Delete">Delete</button>
+        </form>
+    </div>
+</div>

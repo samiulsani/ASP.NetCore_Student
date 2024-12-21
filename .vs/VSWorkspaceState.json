@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Studentinfo",
+    "\\Studentinfo\\Controllers",
+    "\\Studentinfo\\Data",
+    "\\Studentinfo\\Models",
+    "\\Studentinfo\\Models\\Domain",
+    "\\Studentinfo\\Views",
+    "\\Studentinfo\\Views\\Home"
+  ],
+  "SelectedNode": "\\Student.sln",
+  "PreviewInSolutionExplorer": false
+}
