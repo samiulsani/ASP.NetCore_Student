@@ -63,8 +63,7 @@ Studentinfo/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repository.git
-   cd your-repository
+   git clone (repository link)
    ```
 
 2. Update the database connection string in `appsettings.json`:
@@ -84,7 +83,7 @@ Studentinfo/
    dotnet run
    ```
 
-5. Open your browser and navigate to `https://localhost:7244/`.
+5. Open your browser and navigate to `https://localhost:7244/`. (7244 is your port number)
 
 ---
 
@@ -115,17 +114,17 @@ Studentinfo/
 
 ## Contributing
 
-Contributions are welcome! Feel free to fork the repository and submit a pull request.
+Contributions are welcome! Please feel free to fix the repository and submit a pull request.
 
 ---
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the MIT License.
 
 ---
 
 ## Contact
 
-If you have any questions or issues, feel free to contact me at `your-email@example.com`.
+If you have any questions or issues, feel free to contact me.
 
