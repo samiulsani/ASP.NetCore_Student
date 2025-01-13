@@ -26,8 +26,19 @@ namespace Studentinfo.Controllers
             {
                 Name = addStudentRequest.Name,
                 Department = addStudentRequest.Department,
-                Session = addStudentRequest.Session
+                Session = addStudentRequest.Session,
+                Section = addStudentRequest.Section,
+                Gender = addStudentRequest.Gender,
+                Address = addStudentRequest.Address,
+                DateOfBirth = addStudentRequest.DateOfBirth
             };
+
+            if(addStudentRequest.ImageFile != null)
+            {
+                using var ms= new MemoryStream();
+                addStudentRequest.ImageFile.CopyTo(ms);
+                student.Image=ms.ToArray();
+            }
 
             studentDbcontext.Students.Add(student);
             studentDbcontext.SaveChanges();
@@ -67,7 +78,11 @@ namespace Studentinfo.Controllers
                 Id=editStudentRequest.Id,
                 Name = editStudentRequest.Name,
                 Department = editStudentRequest.Department,
-                Session = editStudentRequest.Session
+                Session = editStudentRequest.Session,
+                Section=editStudentRequest.Section,
+                Gender=editStudentRequest.Gender,
+                Address=editStudentRequest.Address,
+                DateOfBirth=editStudentRequest.DateOfBirth,
             };
             var existingStudent=studentDbcontext.Students.Find(student.Id);
             if (existingStudent != null) 
@@ -75,6 +90,10 @@ namespace Studentinfo.Controllers
             existingStudent.Name = student.Name;
                 existingStudent.Department = student.Department;
                 existingStudent.Session = student.Session;
+                existingStudent.Section= student.Section;
+                existingStudent.Gender= student.Gender;
+                existingStudent.Address= student.Address;
+                existingStudent.DateOfBirth= student.DateOfBirth;
                 studentDbcontext.SaveChanges();
             }
             return RedirectToAction("List");

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Studentinfo.Data;
 
@@ -11,9 +12,11 @@ using Studentinfo.Data;
 namespace Studentinfo.Migrations
 {
     [DbContext(typeof(StudentDbcontext))]
-    partial class StudentDbcontextModelSnapshot : ModelSnapshot
+    [Migration("20250110195133_image upload")]
+    partial class imageupload
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

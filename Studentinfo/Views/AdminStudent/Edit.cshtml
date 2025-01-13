@@ -24,6 +24,32 @@
                 <label for="Session">Session</label>
                 <input type="text" class="form-control" id="session" asp-for="Session" />
             </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Section"></label>
+                <input type="text" class="form-control" asp-for="Section" />
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Gender"></label>
+                <select asp-for="Gender" class="form-control">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Address"></label>
+                <textarea asp-for="Address" class="form-control"></textarea>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="DateOfBirth"></label>
+                <input type="date" class="form-control" asp-for="DateOfBirth" />
+            </div>
+            <div class="form-group mb-3">
+                <label for="ImageFile">Image File</label>
+                <input type="file" class="form-control" id="imagefile" asp-for="ImageFile" />
+            </div>
+
             <button type="submit" class="btn btn-primary">Update</button>
             <button type="submit" class="btn btn-outline-success" asp-controller="AdminStudent" asp-action="Delete">Delete</button>
         </form>

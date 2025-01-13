@@ -1,4 +1,5 @@
-﻿@model Studentinfo.Models.ViewModel.AddStudentRequest
+﻿@model Studentinfo.Models.Domain.Student
+@* @model Studentinfo.Models.ViewModel.AddStudentRequest *@
 @{
 }
 <div class="bg-secondary bg-opacity-10 py-2">
@@ -7,18 +8,51 @@
 	</div>
 
     <div class="container py-5">
-    <form method="post">
+    <form asp-action="Add" asp-controller="AdminStudent" method="post" enctype="multipart/form-data">
         <div class="form-group mb-3">
             <label for="Name">Name</label>
                 <input type="text" class="form-control" id="name" placeholder="Enter your name" asp-for="Name" />
+                <span asp-validation-for="Name" class="text-danger"></span>
         </div>
         <div class="form-group mb-3">
             <label for="Department">Department</label>
                 <input type="text" class="form-control" id="department" placeholder="Department" asp-for="Department" />
+                <span asp-validation-for="Department" class="text-danger"></span>
         </div>
-            <div class="form-group mb-3">
+        <div class="form-group mb-3">
                 <label for="Session">Session</label>
                 <input type="text" class="form-control" id="session" placeholder="Session" asp-for="Session" />
+                <span asp-validation-for="Session" class="text-danger"></span>
+        </div>
+        <div class="form-group mb-3">
+            <label for="Section">Section</label>
+            <input type="text" class="form-control" id="section" placeholder="Section" asp-for="Section" />
+                <span asp-validation-for="Section" class="text-danger"></span>
+        </div>
+        <div class="form-group mb-3">
+                <label asp-for="Gender">Gender</label>
+                <select asp-for="Gender" class="form-control">
+                    <option value="">-- Select Gender --</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+                <span asp-validation-for="Gender" class="text-danger"></span>
+        </div>
+            <div class="form-group mb-3">
+                <label for="Address">Address</label>
+                <textarea asp-for="Address" class="form-control"></textarea>
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label for="DateOfBirth">Date Of Birth</label>
+                <input type="date" class="form-control" id="dateofbirth" asp-for="DateOfBirth" />
+                <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label for="ImageFile">Image File</label>
+                <input type="file" class="form-control" id="imagefile" asp-for="ImageFile" />
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
             </div>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>

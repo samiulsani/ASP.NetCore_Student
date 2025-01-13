@@ -170,3 +170,4 @@ D:\ASP.NET\Student\Studentinfo\obj\Debug\net8.0\refint\Studentinfo.dll
 D:\ASP.NET\Student\Studentinfo\obj\Debug\net8.0\Studentinfo.pdb
 D:\ASP.NET\Student\Studentinfo\obj\Debug\net8.0\Studentinfo.genruntimeconfig.cache
 D:\ASP.NET\Student\Studentinfo\obj\Debug\net8.0\ref\Studentinfo.dll
+D:\ASP.NET\Student\Studentinfo\obj\Debug\net8.0\Studentinfo.sourcelink.json

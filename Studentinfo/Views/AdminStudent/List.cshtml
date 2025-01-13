@@ -17,6 +17,11 @@
                     <th>Name</th>
                     <th>Department</th>
                     <th>Session</th>
+                    <th>Section</th>
+                    <th>Gender</th>
+                    <th>Address</th>
+                    <th>D-Birth</th>
+                    <th>Image</th>
                     <th>Action</th>
                 </tr>
             </thead>
@@ -28,6 +33,19 @@
                         <td>@student.Name</td>
                         <td>@student.Department</td>
                         <td>@student.Session</td>
+                        <td>@student.Section</td>
+                        <td>@student.Gender</td>
+                        <td>@student.Address</td>
+                        <td>@student.DateOfBirth</td>
+                        <td>
+                            @if(student.Image!=null){
+                                <img src="data:image/jpeg;base64,@Convert.ToBase64String(student.Image)" alt="Student Image" cclass="img-thumbnail"
+                                     style="width: 100px; height: 100px;" />
+                            }
+                            else{
+                                <span>No Image</span>
+                            }
+                        </td>
                         <td><a asp-controller="AdminStudent" asp-action="Edit" asp-route-Id="@student.Id">Edit</a></td>
                     </tr>
                 }
@@ -36,6 +54,6 @@
         </table>
 	}
     else{
-        <p>No Data Found.</p>
+        <p class="text-danger">No Data Found.</p>
     }
 </div>
