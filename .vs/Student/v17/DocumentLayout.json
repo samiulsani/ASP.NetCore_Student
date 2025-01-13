@@ -54,8 +54,7 @@
               "RelativeToolTip": "Studentinfo\\Views\\AdminStudent\\Edit.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAiwCsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-19T19:25:14.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T19:25:14.35Z"
             },
             {
               "$type": "Document",
@@ -67,8 +66,7 @@
               "RelativeToolTip": "Studentinfo\\Views\\AdminStudent\\Add.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-19T15:47:21.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T15:47:21.249Z"
             },
             {
               "$type": "Document",
@@ -80,8 +78,7 @@
               "RelativeToolTip": "Studentinfo\\Views\\AdminStudent\\List.cshtml",
               "ViewState": "AgIAACQAAAAAAAAAAAAAACoAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-19T18:17:46.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T18:17:46.966Z"
             },
             {
               "$type": "Document",
@@ -93,8 +90,7 @@
               "RelativeToolTip": "Studentinfo\\Models\\ViewModel\\EditStudentRequest.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAA3wA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T19:34:02.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T19:34:02.044Z"
             },
             {
               "$type": "Document",
@@ -106,8 +102,7 @@
               "RelativeToolTip": "Studentinfo\\Models\\ViewModel\\AddStudentRequest.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAiwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T20:21:32.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T20:21:32.518Z"
             },
             {
               "$type": "Document",
@@ -132,8 +127,7 @@
               "RelativeToolTip": "Studentinfo\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-19T18:35:16.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T18:35:16.636Z"
             },
             {
               "$type": "Document",
@@ -145,8 +139,7 @@
               "RelativeToolTip": "Studentinfo\\Models\\Domain\\Student.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAA7wCYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T17:14:52.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-09T17:14:52.63Z"
             }
           ]
         }
