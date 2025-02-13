@@ -1,0 +1,32 @@
+﻿@model List<Studentinfo.Models.Domain.Course>
+
+<h2>Course List</h2>
+
+<a asp-action="Add" class="btn btn-primary">Add New Course</a>
+
+<table class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Course Name</th>
+            <th>Description</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var course in Model)
+        {
+            <tr>
+                <td>@course.Id</td>
+                <td>@course.CourseName</td>
+                <td>@course.CourseDescription</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@course.Id" class="btn btn-warning btn-sm">Edit</a>
+                    <form method="post" asp-action="Delete" asp-route-id="@course.Id" style="display:inline;">
+                        <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?');">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

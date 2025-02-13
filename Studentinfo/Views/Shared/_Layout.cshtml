@@ -19,23 +19,51 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
+
+                        <!-- Home -->
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
+
+                        <!-- Student Management -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="studentDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Student
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" asp-area="" asp-controller="AdminStudent" asp-action="Add">Add Student</a>
-                                <a class="dropdown-item" asp-area="" asp-controller="AdminStudent" asp-action="List">View Students</a>
+                            <div class="dropdown-menu" aria-labelledby="studentDropdown">
+                                <a class="dropdown-item" asp-controller="AdminStudent" asp-action="Add">Add Student</a>
+                                <a class="dropdown-item" asp-controller="AdminStudent" asp-action="List">View Students</a>
                             </div>
                         </li>
+
+                        <!-- Course Management -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="courseDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Course
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="courseDropdown">
+                                <a class="dropdown-item" asp-controller="AdminCourse" asp-action="Add">Add Course</a>
+                                <a class="dropdown-item" asp-controller="AdminCourse" asp-action="List">View Courses</a>
+                            </div>
+                        </li>
+
+                        <!-- Course Assignment -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="assignmentDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Course Assignment
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="assignmentDropdown">
+                                <a class="dropdown-item" asp-controller="StudentCourse" asp-action="Index">Assign Course</a>
+                                <a class="dropdown-item" asp-controller="StudentCourse" asp-action="AssignedCourses">Assigned Courses</a>
+                            </div>
+                        </li>
+
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
@@ -44,9 +72,10 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2024 - Studentinfo - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2024 - Studentinfo - <a asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

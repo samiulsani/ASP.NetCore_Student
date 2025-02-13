@@ -38,5 +38,8 @@ namespace Studentinfo.Models.Domain
         [Display (Name ="Upload Image")]
         public IFormFile? ImageFile { get; set; }
 
+
+        public ICollection<StudentCourse> StudentCourses { get; set; }
+
     }
 }

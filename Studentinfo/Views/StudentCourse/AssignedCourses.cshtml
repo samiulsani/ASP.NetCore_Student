@@ -1,0 +1,21 @@
+﻿@model List<Studentinfo.Models.Domain.StudentCourse>
+
+<h2>Assigned Courses</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Student</th>
+            <th>Course</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var assignment in Model)
+        {
+            <tr>
+                <td>@assignment.Student.Name</td>
+                <td>@assignment.Course.CourseName</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,19 @@
+﻿@model Studentinfo.Models.ViewModel.AdminCourseViewModel
+
+<h2>Edit Course</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="CourseName"></label>
+        <input asp-for="CourseName" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CourseDescription"></label>
+        <textarea asp-for="CourseDescription" class="form-control"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Update Course</button>
+</form>

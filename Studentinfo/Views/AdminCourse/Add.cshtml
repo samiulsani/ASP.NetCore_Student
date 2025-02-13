@@ -1,0 +1,17 @@
+﻿@model Studentinfo.Models.ViewModel.AdminCourseViewModel
+
+<h2>Add New Course</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="CourseName"></label>
+        <input asp-for="CourseName" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CourseDescription"></label>
+        <textarea asp-for="CourseDescription" class="form-control"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Add Course</button>
+</form>

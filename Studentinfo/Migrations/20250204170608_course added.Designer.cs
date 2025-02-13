@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Studentinfo.Data;
 
@@ -11,9 +12,11 @@ using Studentinfo.Data;
 namespace Studentinfo.Migrations
 {
     [DbContext(typeof(StudentDbcontext))]
-    partial class StudentDbcontextModelSnapshot : ModelSnapshot
+    [Migration("20250204170608_course added")]
+    partial class courseadded
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -89,13 +92,16 @@ namespace Studentinfo.Migrations
 
             modelBuilder.Entity("Studentinfo.Models.Domain.StudentCourse", b =>
                 {
-                    b.Property<int>("StudentId")
+                    b.Property<int>("Id")
                         .HasColumnType("int");
 
                     b.Property<int>("CourseId")
                         .HasColumnType("int");
 
-                    b.HasKey("StudentId", "CourseId");
+                    b.Property<int>("StudentId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id", "CourseId");
 
                     b.HasIndex("CourseId");
 
@@ -112,7 +118,7 @@ namespace Studentinfo.Migrations
 
                     b.HasOne("Studentinfo.Models.Domain.Student", "Student")
                         .WithMany("StudentCourses")
-                        .HasForeignKey("StudentId")
+                        .HasForeignKey("Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

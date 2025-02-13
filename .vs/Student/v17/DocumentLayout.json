@@ -3,16 +3,72 @@
   "WorkspaceRootPath": "D:\\ASP.NET\\Student\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\controllers\\adminstudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\controllers\\adminstudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\views\\studentcourse\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\views\\studentcourse\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\views\\studentcourse\\assignedcourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\views\\studentcourse\\assignedcourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\models\\domain\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\models\\domain\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\models\\domain\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\models\\domain\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\models\\domain\\studentcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\models\\domain\\studentcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\controllers\\admincoursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\controllers\\admincoursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\controllers\\studentcoursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\controllers\\studentcoursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\data\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\data\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\models\\viewmodel\\admincourseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\models\\viewmodel\\admincourseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\views\\admincourse\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\views\\admincourse\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\views\\admincourse\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\views\\admincourse\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\views\\admincourse\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\views\\admincourse\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\views\\adminstudent\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\views\\adminstudent\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\models\\viewmodel\\addstudentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\models\\viewmodel\\addstudentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\controllers\\adminstudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\controllers\\adminstudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\views\\adminstudent\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\views\\adminstudent\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\models\\viewmodel\\editstudentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,16 +79,12 @@
       "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\views\\adminstudent\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\models\\viewmodel\\addstudentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\models\\viewmodel\\addstudentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\migrations\\20250204170608_course added.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\migrations\\20250204170608_course added.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\views\\adminstudent\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\views\\adminstudent\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|d:\\asp.net\\student\\studentinfo\\migrations\\20250203132431_studentcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F34C5315-8C51-491A-AA98-7B7E93ABF98F}|Studentinfo\\Studentinfo.csproj|solutionrelative:studentinfo\\migrations\\20250203132431_studentcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +98,244 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentCourse.cs",
+              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Models\\Domain\\StudentCourse.cs",
+              "RelativeDocumentMoniker": "Studentinfo\\Models\\Domain\\StudentCourse.cs",
+              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Models\\Domain\\StudentCourse.cs",
+              "RelativeToolTip": "Studentinfo\\Models\\Domain\\StudentCourse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T11:33:04.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Models\\Domain\\Student.cs",
+              "RelativeDocumentMoniker": "Studentinfo\\Models\\Domain\\Student.cs",
+              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Models\\Domain\\Student.cs",
+              "RelativeToolTip": "Studentinfo\\Models\\Domain\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T17:14:52.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Models\\Domain\\Course.cs",
+              "RelativeDocumentMoniker": "Studentinfo\\Models\\Domain\\Course.cs",
+              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Models\\Domain\\Course.cs",
+              "RelativeToolTip": "Studentinfo\\Models\\Domain\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T11:19:26.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Studentinfo\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Studentinfo\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-19T18:35:16.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AssignedCourses.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\StudentCourse\\AssignedCourses.cshtml",
+              "RelativeDocumentMoniker": "Studentinfo\\Views\\StudentCourse\\AssignedCourses.cshtml",
+              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\StudentCourse\\AssignedCourses.cshtml",
+              "RelativeToolTip": "Studentinfo\\Views\\StudentCourse\\AssignedCourses.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-04T16:56:32.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\StudentCourse\\Index.cshtml",
+              "RelativeDocumentMoniker": "Studentinfo\\Views\\StudentCourse\\Index.cshtml",
+              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\StudentCourse\\Index.cshtml",
+              "RelativeToolTip": "Studentinfo\\Views\\StudentCourse\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-04T16:44:48.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminCourseController.cs",
+              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Controllers\\AdminCourseController.cs",
+              "RelativeDocumentMoniker": "Studentinfo\\Controllers\\AdminCourseController.cs",
+              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Controllers\\AdminCourseController.cs",
+              "RelativeToolTip": "Studentinfo\\Controllers\\AdminCourseController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwC4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T19:58:50.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentCourseController.cs",
+              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Controllers\\StudentCourseController.cs",
+              "RelativeDocumentMoniker": "Studentinfo\\Controllers\\StudentCourseController.cs",
+              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Controllers\\StudentCourseController.cs",
+              "RelativeToolTip": "Studentinfo\\Controllers\\StudentCourseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T11:46:26.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentDbcontext.cs",
+              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Data\\StudentDbcontext.cs",
+              "RelativeDocumentMoniker": "Studentinfo\\Data\\StudentDbcontext.cs",
+              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Data\\StudentDbcontext.cs",
+              "RelativeToolTip": "Studentinfo\\Data\\StudentDbcontext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T11:44:06.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminCourseViewModel.cs",
+              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Models\\ViewModel\\AdminCourseViewModel.cs",
+              "RelativeDocumentMoniker": "Studentinfo\\Models\\ViewModel\\AdminCourseViewModel.cs",
+              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Models\\ViewModel\\AdminCourseViewModel.cs",
+              "RelativeToolTip": "Studentinfo\\Models\\ViewModel\\AdminCourseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T19:57:43.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\AdminCourse\\Add.cshtml",
+              "RelativeDocumentMoniker": "Studentinfo\\Views\\AdminCourse\\Add.cshtml",
+              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\AdminCourse\\Add.cshtml",
+              "RelativeToolTip": "Studentinfo\\Views\\AdminCourse\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T20:08:59.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\AdminCourse\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Studentinfo\\Views\\AdminCourse\\Edit.cshtml",
+              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\AdminCourse\\Edit.cshtml",
+              "RelativeToolTip": "Studentinfo\\Views\\AdminCourse\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T20:09:26.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\AdminCourse\\List.cshtml",
+              "RelativeDocumentMoniker": "Studentinfo\\Views\\AdminCourse\\List.cshtml",
+              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\AdminCourse\\List.cshtml",
+              "RelativeToolTip": "Studentinfo\\Views\\AdminCourse\\List.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T20:08:11.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\AdminStudent\\Add.cshtml",
+              "RelativeDocumentMoniker": "Studentinfo\\Views\\AdminStudent\\Add.cshtml",
+              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\AdminStudent\\Add.cshtml",
+              "RelativeToolTip": "Studentinfo\\Views\\AdminStudent\\Add.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-19T15:47:21.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddStudentRequest.cs",
+              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Models\\ViewModel\\AddStudentRequest.cs",
+              "RelativeDocumentMoniker": "Studentinfo\\Models\\ViewModel\\AddStudentRequest.cs",
+              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Models\\ViewModel\\AddStudentRequest.cs",
+              "RelativeToolTip": "Studentinfo\\Models\\ViewModel\\AddStudentRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T20:21:32.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminStudentController.cs",
+              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Controllers\\AdminStudentController.cs",
+              "RelativeDocumentMoniker": "Studentinfo\\Controllers\\AdminStudentController.cs",
+              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Controllers\\AdminStudentController.cs",
+              "RelativeToolTip": "Studentinfo\\Controllers\\AdminStudentController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T15:47:02.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20250204170608_course added.cs",
+              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Migrations\\20250204170608_course added.cs",
+              "RelativeDocumentMoniker": "Studentinfo\\Migrations\\20250204170608_course added.cs",
+              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Migrations\\20250204170608_course added.cs",
+              "RelativeToolTip": "Studentinfo\\Migrations\\20250204170608_course added.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T17:06:09.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\AdminStudent\\List.cshtml",
+              "RelativeDocumentMoniker": "Studentinfo\\Views\\AdminStudent\\List.cshtml",
+              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\AdminStudent\\List.cshtml",
+              "RelativeToolTip": "Studentinfo\\Views\\AdminStudent\\List.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-19T18:17:46.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250203132431_studentCourse.cs",
+              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Migrations\\20250203132431_studentCourse.cs",
+              "RelativeDocumentMoniker": "Studentinfo\\Migrations\\20250203132431_studentCourse.cs",
+              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Migrations\\20250203132431_studentCourse.cs",
+              "RelativeToolTip": "Studentinfo\\Migrations\\20250203132431_studentCourse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T13:24:32.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\AdminStudent\\Edit.cshtml",
               "RelativeDocumentMoniker": "Studentinfo\\Views\\AdminStudent\\Edit.cshtml",
@@ -58,31 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\AdminStudent\\Add.cshtml",
-              "RelativeDocumentMoniker": "Studentinfo\\Views\\AdminStudent\\Add.cshtml",
-              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\AdminStudent\\Add.cshtml",
-              "RelativeToolTip": "Studentinfo\\Views\\AdminStudent\\Add.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-19T15:47:21.249Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\AdminStudent\\List.cshtml",
-              "RelativeDocumentMoniker": "Studentinfo\\Views\\AdminStudent\\List.cshtml",
-              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\AdminStudent\\List.cshtml",
-              "RelativeToolTip": "Studentinfo\\Views\\AdminStudent\\List.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAACoAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-19T18:17:46.966Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 17,
               "Title": "EditStudentRequest.cs",
               "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Models\\ViewModel\\EditStudentRequest.cs",
               "RelativeDocumentMoniker": "Studentinfo\\Models\\ViewModel\\EditStudentRequest.cs",
@@ -91,55 +356,6 @@
               "ViewState": "AgIAAAIAAAAAAAAAAAA3wA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-19T19:34:02.044Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddStudentRequest.cs",
-              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Models\\ViewModel\\AddStudentRequest.cs",
-              "RelativeDocumentMoniker": "Studentinfo\\Models\\ViewModel\\AddStudentRequest.cs",
-              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Models\\ViewModel\\AddStudentRequest.cs",
-              "RelativeToolTip": "Studentinfo\\Models\\ViewModel\\AddStudentRequest.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAiwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T20:21:32.518Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdminStudentController.cs",
-              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Controllers\\AdminStudentController.cs",
-              "RelativeDocumentMoniker": "Studentinfo\\Controllers\\AdminStudentController.cs",
-              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Controllers\\AdminStudentController.cs",
-              "RelativeToolTip": "Studentinfo\\Controllers\\AdminStudentController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T15:47:02.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Studentinfo\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Studentinfo\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAABzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-19T18:35:16.636Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Student.cs",
-              "DocumentMoniker": "D:\\ASP.NET\\Student\\Studentinfo\\Models\\Domain\\Student.cs",
-              "RelativeDocumentMoniker": "Studentinfo\\Models\\Domain\\Student.cs",
-              "ToolTip": "D:\\ASP.NET\\Student\\Studentinfo\\Models\\Domain\\Student.cs",
-              "RelativeToolTip": "Studentinfo\\Models\\Domain\\Student.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA7wCYAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T17:14:52.63Z"
             }
           ]
         }
